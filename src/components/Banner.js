@@ -4,8 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Banner() {
     return (
         <div ClassName="relative">
-            <div className=" absolute w-full h-30 bg-gradient-to-t from-blue-100 bottom-0 z-20 "/>
-            <Carousel
+            {/* <div className=" absolute w-full h-30 bg-gradient-to-t from-gray-200 bottom-0 z-20 "/> */}
+            <Carousel className="h-10"
                 autoPlay
                 infiniteLoop
                 showStatus={false}
